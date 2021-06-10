@@ -103,12 +103,12 @@ export default function NewUserForm({sendData}) {
             <DialogContent>
                 {nameError &&
                     <DialogContentText id="alert-dialog-description">
-                       Name be filled out
+                       Name must be filled out
                     </DialogContentText>
                 }
                 {ageError &&
                     <DialogContentText id="alert-dialog-description">
-                       Age be filled out
+                       Age must be filled out
                     </DialogContentText>
                 }
             </DialogContent>
